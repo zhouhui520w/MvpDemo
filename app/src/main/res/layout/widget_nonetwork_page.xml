@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="50dp"
+    android:paddingTop="50dp"
+    android:id="@+id/no_network_reload_btn">
+
+    <ImageView
+        android:src="@mipmap/no_network"
+        android:id="@+id/no_network_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="当前网络状况不佳"
+        android:id="@+id/no_network_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/loading_text"/>
+
+</LinearLayout>
